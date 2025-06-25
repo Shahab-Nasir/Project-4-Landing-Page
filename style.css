@@ -116,3 +116,27 @@ html, body {
     padding-top: 25px;
     font-size: 24px;
 }
+
+@media (max-width: 450px) {
+    .sec1 {
+        background-image: 50vh;
+    }
+    .heading {
+        font-size: 30px;
+    }
+    .sec1_text {
+        text-align: center;
+        padding-left: 0px;
+    }
+    .blackbox h2 {
+        font-size: 30px;
+        height: auto;
+    }
+    .blackbox span {
+        font-size: 30px;
+        height: auto;
+    }
+    .lastsec {
+        flex-direction: column;
+    }
+}
