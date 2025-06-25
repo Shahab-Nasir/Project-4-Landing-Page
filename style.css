@@ -145,6 +145,7 @@ html, body {
     }
     .buttonflex {
         height: 40vh;
+        padding-bottom: 10px;
     }
     .contact {
         padding: 30px 20px;
