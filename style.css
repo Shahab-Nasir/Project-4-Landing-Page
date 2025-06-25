@@ -43,7 +43,8 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 370px;
+    height:100vh;
+    padding-bottom: 10px;
 }
 .heading {
     font-size: 55px;
@@ -97,7 +98,6 @@ html, body {
 }
 .lastsec {
     display: flex;
-    justify-content: space-evenly;
     color: white;
 }
 .contact {
@@ -117,7 +117,7 @@ html, body {
     font-size: 24px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     .sec1 {
         min-height: 30vh;
     }
@@ -151,5 +151,9 @@ html, body {
     }
     .about {
         padding: 30px 20px;
+    }
+    .last {
+        font-size: 20px;
+        padding-top: 10px;
     }
 }
