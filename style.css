@@ -119,14 +119,18 @@ html, body {
 
 @media (max-width: 450px) {
     .sec1 {
-        background-image: 50vh;
+        min-height: 30vh;
     }
     .heading {
-        font-size: 30px;
+        font-size: 20px;
+    }
+    .sec1_text h2 {
+        font-size: 15px;
     }
     .sec1_text {
         text-align: center;
         padding-left: 0px;
+        line-height: 30px;
     }
     .blackbox h2 {
         font-size: 30px;
@@ -138,5 +142,14 @@ html, body {
     }
     .lastsec {
         flex-direction: column;
+    }
+    .buttonflex {
+        height: 40vh;
+    }
+    .contact {
+        padding: 30px 20px;
+    }
+    .about {
+        padding: 30px 20px;
     }
 }
